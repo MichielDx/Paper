@@ -7,17 +7,27 @@ import java.util.concurrent.Executors;
  */
 public class App {
     public static void main(String[] args) {
-        ExecutorService executor = Executors.newFixedThreadPool(10);
+
+       ExecutorService executor = Executors.newFixedThreadPool(10);
         final String text = getText();
         final String[] words = text.split(" ");
+          /*
+        for (int i = 0; i < words.length; i++) {
+            new Thread(new Worker(words[i])).start();
+        }
+        System.out.println("Finished all threads");
+        */
         for (int i = 0; i < words.length; i++) {
             Runnable worker = new Worker(words[i]);
             executor.execute(worker);
         }
+
         System.out.println("Finished all threads");
         executor.shutdown();
         while (!executor.isTerminated()) {
         }
+
+
     }
 
     public static String getText() {

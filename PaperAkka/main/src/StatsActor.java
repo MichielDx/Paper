@@ -10,10 +10,12 @@ public class StatsActor extends UntypedActor {
 
     @Override
     public void onReceive(Object message) throws Throwable {
-        messages++;
-        total += (int) message;
-        if (messages % 1000 == 0) {
-            log.info("current total of vowels: " + total);
+        if (message instanceof Result){
+            messages++;
+            total += ((Result) message).getVowelcount();
+            if (messages % 1000 == 0) {
+                log.info("current number of vowels counted: " + total);
+            }
         }
     }
 }

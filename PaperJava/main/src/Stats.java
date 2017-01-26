@@ -6,7 +6,7 @@ class Stats {
         messages++;
         total += (int) message;
         if (messages % 1000 == 0) {
-            System.out.println("current mean of vowels: " + total);
+            System.out.println("current total of vowels: " + total);
         }
     }
 }
