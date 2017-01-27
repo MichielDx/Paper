@@ -9,7 +9,7 @@ class Stats {
             if (messages % 1000 == 0) {
                 System.out.println("current number of vowels counted: " + total);
             }
-            if (messages == 1000000){;
+            if (messages == 1000000){
                 System.out.println("Initiating db transaction");
                 Stats.receive(total);
             }
