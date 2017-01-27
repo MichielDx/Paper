@@ -20,8 +20,8 @@ public class Worker implements Runnable {
         if (message instanceof String) {
             Builder.receive(message);
             String temp = (String) message;
-            int result = calculate(temp);
-            Stats.receive(result);
+            int vowelcount = calculate(temp);
+            Stats.receive(new Result((String)message,vowelcount));
         }
     }
 

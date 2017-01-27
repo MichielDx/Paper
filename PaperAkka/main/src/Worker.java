@@ -13,7 +13,7 @@ public class Worker extends UntypedActor {
     @Override
     public void onReceive(Object message) throws Throwable {
         messages++;
-        if(rnd.nextInt(100000)+1 == 1){
+        if(rnd.nextInt(1000000)+1 == 1){
             throw new RuntimeException("Something went wrong with my calculation");
         }
         if (message instanceof String) {

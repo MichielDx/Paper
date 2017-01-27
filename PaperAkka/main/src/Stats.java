@@ -13,7 +13,7 @@ public class Stats extends UntypedActor {
         if (message instanceof Result){
             messages++;
             total += ((Result) message).getVowelcount();
-            if (messages % 1000 == 0) {
+            if (messages % 100000 == 0) {
                 log.info("current number of vowels counted: " + total);
             }
         }

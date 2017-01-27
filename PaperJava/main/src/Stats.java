@@ -4,9 +4,12 @@ class Stats {
 
     static synchronized void receive(Object message){
         messages++;
-        total += (int) message;
-        if (messages % 1000 == 0) {
-            System.out.println("current total of vowels: " + total);
+        if (message instanceof Result){
+            messages++;
+            total += ((Result) message).getVowelcount();
+            if (messages % 100000 == 0) {
+                System.out.println("current number of vowels counted: " + total);
+            }
         }
     }
 }
