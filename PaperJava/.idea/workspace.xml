@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe7f9e7-4b26-4cd0-be8f-9a84b1a04f78" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Builder.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Builder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Stats.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Stats.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Writer.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Writer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/rebuildedText.txt" afterPath="$PROJECT_DIR$/../PaperAkka/rebuildedText.txt" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/Writer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Builder.class" afterPath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Worker.class" afterPath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Worker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Writer.class" afterPath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Writer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/Builder.class" afterPath="$PROJECT_DIR$/out/production/main/Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PaperAkka/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Builder.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Builder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/rebuildedText.txt" afterPath="$PROJECT_DIR$/../PaperAkka/rebuildedText.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/App.java" afterPath="$PROJECT_DIR$/main/src/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Builder.java" afterPath="$PROJECT_DIR$/main/src/Builder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rebuildedText.txt" afterPath="$PROJECT_DIR$/rebuildedText.txt" />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
     </list>
     <ignored path="PaperJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +43,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="459">
               <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+=======
+            <state relative-caret-position="255">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Writer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/src/Writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,10 +74,15 @@
         <entry file="file://$PROJECT_DIR$/main/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
+<<<<<<< HEAD
               <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
+=======
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
             </state>
           </provider>
         </entry>
@@ -65,9 +102,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,12 +110,18 @@
       <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="357">
               <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
               <folding>
                 <element signature="e#258#259#0" expanded="false" />
                 <element signature="e#296#297#0" expanded="false" />
               </folding>
+=======
+            <state relative-caret-position="323">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
             </state>
           </provider>
         </entry>
@@ -125,6 +166,7 @@
         <option value="$PROJECT_DIR$/main/src/Stats.java" />
         <option value="$PROJECT_DIR$/main/src/App.java" />
         <option value="$PROJECT_DIR$/main/src/Builder.java" />
+        <option value="$PROJECT_DIR$/main/src/Writer.java" />
       </list>
     </option>
   </component>
@@ -708,13 +750,21 @@
       <workItem from="1485522757132" duration="666000" />
       <workItem from="1485525984546" duration="234000" />
       <workItem from="1485526987853" duration="423000" />
+<<<<<<< HEAD
       <workItem from="1485529591034" duration="1445000" />
       <workItem from="1485531970604" duration="682000" />
+=======
+      <workItem from="1485529591034" duration="3262000" />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4481000" />
+=======
+    <option name="totallyTimeSpent" value="5616000" />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -857,9 +907,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -917,9 +965,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,9 +1010,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,9 +1055,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,9 +1074,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebuildedText.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3723">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,40 +1099,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/Stats.java">
+    <entry file="file://$PROJECT_DIR$/main/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        <state relative-caret-position="119">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="357">
           <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding>
             <element signature="e#258#259#0" expanded="false" />
             <element signature="e#296#297#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+=======
+        <state relative-caret-position="323">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="119">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="255">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="459">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+>>>>>>> 0da4695159083f5d4739756817ffde503b34e8d9
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
