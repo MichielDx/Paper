@@ -19,7 +19,7 @@ public class Stats extends UntypedActor {
             if (messages % 1000 == 0) {
                 log.info("current number of vowels counted: " + total);
             }
-            if (messages == 1000000){;
+            if (messages == 1000000){
                 log.info("Initiating db transaction");
                 writer.tell(total, getSelf());
             }
