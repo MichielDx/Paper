@@ -22,7 +22,7 @@ public class Supervisor extends UntypedActor {
             10,
             Duration.create("10 seconds"),
             DeciderBuilder
-                    .match(RuntimeException.class, ex -> restart())
+                    .match(RuntimeException.class, ex -> resume())
                     .build()
     );
 
