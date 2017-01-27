@@ -1,9 +1,12 @@
+import java.util.Random;
+
 /**
  * Created by Michiel on 26/01/2017.
  */
 public class Worker implements Runnable {
     private final String vowels = "aeuio";
     private Object message;
+    private Random rnd = new Random();
 
     public Worker(Object message) {
         this.message = message;
@@ -11,6 +14,9 @@ public class Worker implements Runnable {
 
     @Override
     public void run() {
+        if(rnd.nextInt(100000)+1 == 1){
+            throw new RuntimeException("Something went wrong with my calculation");
+        }
         if (message instanceof String) {
             Builder.receive(message);
             String temp = (String) message;

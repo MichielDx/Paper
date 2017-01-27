@@ -2,15 +2,18 @@ import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedActor;
 
+import java.util.Random;
+
 public class Worker extends UntypedActor {
     private int messages = 0;
     private final String vowels = "aeuio";
     final ActorRef stats = getContext().actorOf(Props.create(Stats.class), "stats");
+    private Random rnd = new Random();
 
     @Override
     public void onReceive(Object message) throws Throwable {
         messages++;
-        if (messages % 100000 == 0) {
+        if(rnd.nextInt(100000)+1 == 1){
             throw new RuntimeException("Something went wrong with my calculation");
         }
         if (message instanceof String) {
