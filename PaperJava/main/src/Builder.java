@@ -14,17 +14,10 @@ class Builder {
         messages++;
         if (message instanceof String) {
             stringBuilder.append((String) message).append(" ");
-            if (messages == 1000001) {
-                try (FileWriter fw = new FileWriter("rebuildedText.txt", false);
-                     BufferedWriter bw = new BufferedWriter(fw);
-                     PrintWriter out = new PrintWriter(bw)) {
-                    out.println(stringBuilder.toString());
-                    stringBuilder = new StringBuilder();
-                } catch (IOException e) {
-
-                }
+            if (messages == 1000000) {
+                Writer.receive(stringBuilder.toString());
+                stringBuilder = new StringBuilder();
             }
         }
-
     }
 }

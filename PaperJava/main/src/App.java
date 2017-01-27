@@ -10,12 +10,8 @@ public class App {
         ExecutorService executor = Executors.newCachedThreadPool();
         final String text = getText();
         final String[] words = text.split(" ");
-          /*
-        for (int i = 0; i < words.length; i++) {
-            new Thread(new Worker(words[i])).start();
-        }
-        System.out.println("Finished all threads");
-        */
+
+
         for (int i = 0; i < words.length; i++) {
             Runnable worker = new Worker(words[i]);
             executor.execute(worker);

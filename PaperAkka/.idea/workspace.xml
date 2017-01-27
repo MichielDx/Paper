@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1f3271-4c9b-4cb0-8ec5-2566cdcd699d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/target/classes/Stats.class" afterPath="$PROJECT_DIR$/main/target/classes/Stats.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PaperJava/main/src/Writer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/target/classes/Builder.class" afterPath="$PROJECT_DIR$/main/target/classes/Builder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/target/classes/Worker.class" afterPath="$PROJECT_DIR$/main/target/classes/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/out/production/main/App.class" afterPath="$PROJECT_DIR$/../PaperJava/out/production/main/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/out/production/main/Stats.class" afterPath="$PROJECT_DIR$/../PaperJava/out/production/main/Stats.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/out/production/main/Worker.class" afterPath="$PROJECT_DIR$/../PaperJava/out/production/main/Worker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/target/classes/Writer.class" afterPath="$PROJECT_DIR$/main/target/classes/Writer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/out/production/main/Builder.class" afterPath="$PROJECT_DIR$/../PaperJava/out/production/main/Builder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Builder.java" afterPath="$PROJECT_DIR$/main/src/Builder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Stats.java" afterPath="$PROJECT_DIR$/main/src/Stats.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Worker.java" afterPath="$PROJECT_DIR$/main/src/Worker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Writer.java" afterPath="$PROJECT_DIR$/main/src/Writer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rebuildedText.txt" afterPath="$PROJECT_DIR$/rebuildedText.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PaperJava/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/main/src/App.java" afterPath="$PROJECT_DIR$/../PaperJava/main/src/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/main/src/Builder.java" afterPath="$PROJECT_DIR$/../PaperJava/main/src/Builder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/main/src/Stats.java" afterPath="$PROJECT_DIR$/../PaperJava/main/src/Stats.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/main/src/Worker.java" afterPath="$PROJECT_DIR$/../PaperJava/main/src/Worker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperJava/rebuildedText.txt" afterPath="$PROJECT_DIR$/../PaperJava/rebuildedText.txt" />
     </list>
     <ignored path="PaperAkka.iws" />
@@ -75,8 +71,8 @@
       <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -184,7 +180,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -771,15 +767,15 @@
       <workItem from="1485525173487" duration="705000" />
       <workItem from="1485525987658" duration="231000" />
       <workItem from="1485526253503" duration="1156000" />
-      <workItem from="1485529586643" duration="1450000" />
+      <workItem from="1485529586643" duration="3199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7128000" />
+    <option name="totallyTimeSpent" value="8877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1251,18 +1247,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>
