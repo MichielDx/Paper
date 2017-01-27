@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 public class Builder extends UntypedActor {
     private int messages = 0;
     private StringBuilder stringBuilder = new StringBuilder();
-    final ActorRef writer = getContext().actorOf(Props.create(Writer.class));
+    final ActorRef writer = getContext().actorOf(Props.create(Writer.class),"writer");
 
     @Override
     public void onReceive(Object message) throws Throwable {

@@ -5,7 +5,7 @@ import akka.actor.UntypedActor;
 public class Worker extends UntypedActor {
     private int messages = 0;
     private final String vowels = "aeuio";
-    final ActorRef stats = getContext().actorOf(Props.create(StatsActor.class));
+    final ActorRef stats = getContext().actorOf(Props.create(Stats.class),"stats");
     @Override
     public void onReceive(Object message) throws Throwable {
         messages++;

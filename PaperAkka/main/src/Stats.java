@@ -3,7 +3,7 @@ import akka.event.Logging;
 import akka.event.LoggingAdapter;
 
 
-public class StatsActor extends UntypedActor {
+public class Stats extends UntypedActor {
     private final LoggingAdapter log = Logging.getLogger(getContext().system(), this);
     private int total = 0;
     private int messages = 0;
