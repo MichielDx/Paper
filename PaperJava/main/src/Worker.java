@@ -14,7 +14,7 @@ public class Worker implements Runnable {
 
     @Override
     public void run() {
-        if(rnd.nextInt(100000)+1 == 1){
+        if(rnd.nextInt(10000000)+1 == 1){
             throw new RuntimeException("Something went wrong with my calculation");
         }
         if (message instanceof String) {
@@ -27,7 +27,7 @@ public class Worker implements Runnable {
 
     private int calculate(String message) {
         int count = 0;
-        for (int i = 0; i < message.length() - 1; i++) {
+        for (int i = 0; i < message.length(); i++) {
             if (vowels.contains(message.substring(i, i + 1))) {
                 count++;
             }

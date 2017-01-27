@@ -19,8 +19,9 @@ class Builder {
                      BufferedWriter bw = new BufferedWriter(fw);
                      PrintWriter out = new PrintWriter(bw)) {
                     out.println(stringBuilder.toString());
+                    stringBuilder = new StringBuilder();
                 } catch (IOException e) {
-                    //exception handling left as an exercise for the reader
+
                 }
             }
         }

@@ -19,7 +19,6 @@ public class Writer extends UntypedActor {
                  PrintWriter out = new PrintWriter(bw)) {
                 out.println((String) message);
             } catch (IOException e) {
-                //exception handling left as an exercise for the reader
             }
         }
     }

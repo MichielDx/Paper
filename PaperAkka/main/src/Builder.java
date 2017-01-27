@@ -19,6 +19,7 @@ public class Builder extends UntypedActor {
             stringBuilder.append((String) message).append(" ");
             if (messages == 1000001) {
                 writer.tell(stringBuilder.toString(), getSelf());
+                stringBuilder = new StringBuilder();
             }
         }
 

@@ -7,8 +7,7 @@ import java.util.concurrent.Executors;
  */
 public class App {
     public static void main(String[] args) {
-
-       ExecutorService executor = Executors.newFixedThreadPool(10);
+        ExecutorService executor = Executors.newCachedThreadPool();
         final String text = getText();
         final String[] words = text.split(" ");
           /*
@@ -31,7 +30,7 @@ public class App {
     }
 
     public static String getText() {
-        try(BufferedReader br = new BufferedReader(new FileReader("input.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("input.txt"))) {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
 
