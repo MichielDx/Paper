@@ -4,7 +4,6 @@ import akka.actor.UntypedActor;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
 
-
 public class Stats extends UntypedActor {
     private final LoggingAdapter log = Logging.getLogger(getContext().system(), this);
     private int total = 0;

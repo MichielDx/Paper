@@ -8,9 +8,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * Created by Arthur Haelterman on 26/01/2017.
- */
 public class Writer extends UntypedActor {
     private final LoggingAdapter log = Logging.getLogger(getContext().system(), this);
     @Override

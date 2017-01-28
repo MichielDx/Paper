@@ -1,8 +1,5 @@
 import java.util.Random;
 
-/**
- * Created by Michiel on 26/01/2017.
- */
 public class Worker implements Runnable {
     private final String vowels = "aeuio";
     private Object message;

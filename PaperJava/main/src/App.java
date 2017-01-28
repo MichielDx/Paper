@@ -2,9 +2,6 @@ import java.io.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * Created by Michiel on 26/01/2017.
- */
 public class App {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newCachedThreadPool();
@@ -21,8 +18,6 @@ public class App {
         executor.shutdown();
         while (!executor.isTerminated()) {
         }
-
-
     }
 
     public static String getText() {

@@ -1,6 +1,3 @@
-/**
- * Created by Arthur Haelterman on 27/01/2017.
- */
 public class Result {
     private final String word;
     private final int vowelcount;
