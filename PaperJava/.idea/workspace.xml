@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4110f71-15a7-4487-a05a-4aae24d9dba9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PaperAkka/rebuildedText.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rebuildedText.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/target/classes/App.class" afterPath="$PROJECT_DIR$/../PaperAkka/main/target/classes/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Writer.class" afterPath="$PROJECT_DIR$/../PaperAkka/main/target/classes/Writer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/App.class" afterPath="$PROJECT_DIR$/out/production/main/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/Builder.class" afterPath="$PROJECT_DIR$/out/production/main/Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main/Stats.class" afterPath="$PROJECT_DIR$/out/production/main/Stats.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PaperAkka/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Result.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Stats.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Stats.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PaperAkka/main/src/Writer.java" afterPath="$PROJECT_DIR$/../PaperAkka/main/src/Writer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/App.java" afterPath="$PROJECT_DIR$/main/src/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Builder.java" afterPath="$PROJECT_DIR$/main/src/Builder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Result.java" afterPath="$PROJECT_DIR$/main/src/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Worker.java" afterPath="$PROJECT_DIR$/main/src/Worker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Writer.java" afterPath="$PROJECT_DIR$/main/src/Writer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/Stats.java" afterPath="$PROJECT_DIR$/main/src/Stats.java" />
     </list>
     <ignored path="PaperJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Writer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Writer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -92,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stats.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stats.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/src/Stats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -115,12 +100,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/src/Stats.java" />
         <option value="$PROJECT_DIR$/main/src/Builder.java" />
         <option value="$PROJECT_DIR$/main/src/App.java" />
         <option value="$PROJECT_DIR$/main/src/Result.java" />
         <option value="$PROJECT_DIR$/main/src/Worker.java" />
         <option value="$PROJECT_DIR$/main/src/Writer.java" />
+        <option value="$PROJECT_DIR$/main/src/Stats.java" />
       </list>
     </option>
   </component>
@@ -706,12 +691,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485605194043</updated>
       <workItem from="1485605195326" duration="937000" />
-      <workItem from="1485606218334" duration="993000" />
+      <workItem from="1485606218334" duration="1171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1930000" />
+    <option name="totallyTimeSpent" value="2108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -725,7 +710,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -803,14 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -831,8 +808,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
