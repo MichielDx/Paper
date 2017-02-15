@@ -1,12 +1,8 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
-/**
- * Created by Michiel on 14/02/2017.
- */
+
 public class AppZonderPool {
     public static void main(String[] args) {
         final String text = getText();
